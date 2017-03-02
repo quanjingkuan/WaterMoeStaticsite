@@ -1,0 +1,96 @@
+html,body{
+    height:100%;}
+.menu{
+   color: #fff;
+    background: none;
+
+}
+.main-body{
+    background: url("../images/photo-1426523038054-a260f3ef5bc9.jpg") no-repeat  center;
+    background-clip: content-box;
+    background-attachment:fixed;
+    background-size: cover ;
+}
+.icon-bottom{
+    color: #fff;
+    -webkit-animation:myfirst .7s infinite ;
+    -o-animation:myfirst .7s infinite ;
+    animation:myfirst .7s infinite ;
+    animation-direction:alternate;
+    -webkit-animation-direction:alternate; /* Safari 和 Chrome */
+}
+@keyframes myfirst
+{
+    from {bottom: 5px;}
+    to {bottom: 10px;}
+}
+.logo{
+    color: #fff;
+    display: inline-block;
+    font-size:20px;
+    font-weight:bolder;
+}
+.logo:hover{text-decoration: none;
+    color: #fff;}
+.text-p{
+    font-size:5em;
+    line-height: 1em;
+    position: absolute;
+    left:15%;
+    overflow-y: hidden;
+    top:30%;
+    color: #fff;
+}
+.f00{
+    background: none;}
+.header{background: rgba(0,0,0,.9);height:50px;width: 100%;z-index: 999;}
+.header-init{background: none;height:50px;width: 100%;z-index: 999;}
+.main-case{
+    background: rgba(255,255,255,.7) url("http://publicdomainarchive.com/wp-content/uploads/2015/03/public-domain-images-free-stock-photos-1-WTC-architecture-city.jpg");
+    background-clip: content-box;
+    background-attachment:fixed;
+    background-size: cover ;
+}
+.content-servic{
+    background: rgba(255,255,255,.8);
+    height:100%;
+    transition: all .5s;
+
+}
+.content-servic .uk-width-large-1-4{    transition: all .5s;
+}
+.ico-qiye{
+    display: block;
+    height:120px;
+    width:120px;
+    background-image: url("../icon/qy.png");
+}
+.content-servic .uk-width-large-1-4:hover{
+    margin-top:-10px;
+    display: block;
+    box-shadow:0px 5px 9px #aaa;
+    transition: all .5s;
+}
+.big-padding-top{
+    padding-top: 150px;
+
+}
+/*project*/
+.main-project{
+    background:url("http://h5.gonet.com.cn/h5site/demo20/images/port-folio-bg.jpg");
+    background-clip: content-box;
+    background-attachment:fixed;
+    background-size: cover ;
+}
+.main-project .project-tile{
+    color: #FFF;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    background: rgba(30, 25, 18, 0.5);
+    text-align: center;
+}
+.main-project .uk-grid .uk-width-large-1-3 {margin-top: 10px;cursor: pointer}
+.footer{
+    height:300px;
+    background: #1a1a1a;
+}
